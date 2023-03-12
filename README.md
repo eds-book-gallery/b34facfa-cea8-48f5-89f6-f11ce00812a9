@@ -17,7 +17,7 @@
     <a href="https://notebooks.gesis.org/binder/v2/gh/Environmental-DS-Book/ocean-modelling-litter-philab/main?labpath=ocean-modelling-litter-philab.ipynb">
         <img alt="Binder" src="https://mybinder.org/badge_logo.svg">
     </a>
-    <a href="https://github.com/Environmental-DS-Book/ocean-modelling-litter-philab/actions/workflows/render.yml">
+    <a href="https://github.com/Environmental-DS-Book/ocean-modelling-litter-philab/actions/workflows/render.yaml">
         <img alt="Render" src="https://github.com/Environmental-DS-Book/ocean-modelling-litter-philab/actions/workflows/render.yml/badge.svg">
     </a>
     <br/>

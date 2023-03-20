@@ -1,5 +1,5 @@
 {
-    "notebook_name": "ocean-modelling-litter-philab.ipynb",
+    "notebook_name": "notebook.ipynb",
     "kernel": "python",
-    "quay_image": "edsbook/ocean-modelling-litter-philab"
+    "quay_image": "edsbook/b34facfa-cea8-48f5-89f6-f11ce00812a9"
 }

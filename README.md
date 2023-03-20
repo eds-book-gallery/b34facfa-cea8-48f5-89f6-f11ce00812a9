@@ -27,6 +27,9 @@
     <a href="https://w3id.org/ro-id/b34facfa-cea8-48f5-89f6-f11ce00812a9">
         <img alt="RoHub" src="https://img.shields.io/badge/RoHub-FAIR_Executable_Research_Object-2ea44f?logo=Open+Access&logoColor=blue">
     </a>
+    <a href="https://doi.org/10.24424/g1bk-dv49">
+        <img alt="DOI" src="https://zenodo.org/badge/DOI/10.24424/g1bk-dv49.svg">
+    </a>
 </p>
 
 <p align="center">

@@ -11,26 +11,26 @@
 </div>
 
 <p align="center">
-    <a target="_blank" href="https://github.com/eds-book-gallery/b34facfa-cea8-48f5-89f6-f11ce00812a9/blob/main/LICENSE">
+    <a href="https://github.com/eds-book-gallery/b34facfa-cea8-48f5-89f6-f11ce00812a9/blob/main/LICENSE">
         <img alt="license" src="https://img.shields.io/badge/license-MIT-yellow.svg">
     </a>
-    <a target="_blank" href="https://notebooks.gesis.org/binder/v2/gh/eds-book-gallery/b34facfa-cea8-48f5-89f6-f11ce00812a9/main?labpath=notebook.ipynb">
+    <a href="https://notebooks.gesis.org/binder/v2/gh/eds-book-gallery/b34facfa-cea8-48f5-89f6-f11ce00812a9/main?labpath=notebook.ipynb">
         <img alt="binder" src="https://mybinder.org/badge_logo.svg">
     </a>
-    <a target="_blank" href="https://github.com/eds-book-gallery/b34facfa-cea8-48f5-89f6-f11ce00812a9/actions/workflows/render.yaml">
+    <a href="https://github.com/eds-book-gallery/b34facfa-cea8-48f5-89f6-f11ce00812a9/actions/workflows/render.yaml">
         <img alt="render" src="https://github.com/eds-book-gallery/b34facfa-cea8-48f5-89f6-f11ce00812a9/actions/workflows/render.yaml/badge.svg">
     </a>
-    <a target="_blank" href="https://github.com/alan-turing-institute/environmental-ds-book/pull/22">
+    <a href="https://github.com/alan-turing-institute/environmental-ds-book/pull/22">
         <img alt="review" src="https://img.shields.io/badge/view-review-orange">
     </a>
     <br/>
 </p>
 
 <p align="center">
-    <a target="_blank" href="https://w3id.org/ro-id/b34facfa-cea8-48f5-89f6-f11ce00812a9">
+    <a href="https://w3id.org/ro-id/b34facfa-cea8-48f5-89f6-f11ce00812a9">
         <img alt="rohub" src="https://img.shields.io/badge/RoHub-FAIR_Executable_Research_Object-2ea44f?logo=Open+Access&logoColor=blue">
     </a>
-    <a target="_blank" href="https://doi.org/10.24424/g1bk-dv49">
+    <a href="https://doi.org/10.24424/g1bk-dv49">
         <img alt="doi" src="https://zenodo.org/badge/DOI/10.24424/g1bk-dv49.svg">
     </a>
 </p>

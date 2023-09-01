@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+title: "Detecting floating objects using deep learning and Sentinel-2 imagery"
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+authors:
+  - family-names: Mifdal
+    given-names: Jamila
+    website: https://github.com/jmifdal
+    affiliation: European Space Agency Φ-lab
+  - family-names: Carmo
+    given-names: Raquel
+    website: https://github.com/raquelcarmo
+    affiliation: European Space Agency Φ-lab
+  - name: "This EDS book notebook contributors"
+    website: "https://github.com/eds-book-gallery/b34facfa-cea8-48f5-89f6-f11ce00812a9/graphs/contributors"
+version: v1.0.0 # This is automatically set using the bumpversion tool.
+identifiers:
+  - type: doi
+    value: TBA
+    description: The concept DOI for the collection containing all versions of the notebook.
+abstract: "Notebook developed to demonstrate the use of deep neural networks for the detection of floating objects on Sentinel-2 data."
+references:
+  - authors:
+      - family-names: Mifdal
+        given-names: Jamila
+      - family-names: Haynes
+        given-names: Longepe
+      - family-names: Rußwurm
+        given-names: Marc
+    doi: 10.5194/isprs-annals-V-3-2021-285-2021
+    type: proceedings
+    scope: "Related paper describing the model."
+    title: "Towards detecting floating objects on a global scale with learned spatial features using sentinel 2"
+    booktitle: "ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences"
+    year: 2021
+keywords:
+  - Environmental Data Science
+  - Oceanography
+  - Modelling
+  - Deep learning

@@ -24,7 +24,7 @@
 </p>
 
 <p align="center">
-    <a href="https://notebooks.gesis.org/binder/v2/gh/eds-book-gallery/b34facfa-cea8-48f5-89f6-f11ce00812a9/main?labpath=notebook.ipynb">
+    <a href="http://mybinder.org/v2/gh/eds-book-gallery/b34facfa-cea8-48f5-89f6-f11ce00812a9/main?labpath=notebook.ipynb">
         <img alt="binder" src="https://mybinder.org/badge_logo.svg">
     </a>
     <a href="https://replay.notebooks.egi.eu/v2/gh/eds-book-gallery/b34facfa-cea8-48f5-89f6-f11ce00812a9/main?labpath=notebook.ipynb">
@@ -36,6 +36,9 @@
 <p align="center">
     <a href="https://w3id.org/ro-id/b34facfa-cea8-48f5-89f6-f11ce00812a9">
         <img alt="rohub" src="https://img.shields.io/badge/RoHub-FAIR_Executable_Research_Object-2ea44f?logo=Open+Access&logoColor=blue">
+    </a>
+    <a href="https://zenodo.org/badge/latestdoi/493600192">
+        <img alt="doi" src="https://zenodo.org/badge/493600192.svg">
     </a>
 </p>
 

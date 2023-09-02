@@ -13,7 +13,7 @@ authors:
     affiliation: European Space Agency Φ-lab
   - name: "This EDS book notebook contributors"
     website: "https://github.com/eds-book-gallery/b34facfa-cea8-48f5-89f6-f11ce00812a9/graphs/contributors"
-version: v1.0.2 # This is automatically set using the bumpversion tool.
+version: v1.0.3 # This is automatically set using the bumpversion tool.
 identifiers:
   - type: doi
     value: 10.5281/zenodo.8308843

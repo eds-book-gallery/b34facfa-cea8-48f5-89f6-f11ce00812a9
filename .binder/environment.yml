@@ -2,6 +2,7 @@ name: b34facfa-cea8-48f5-89f6-f11ce00812a9
 channels:
   - conda-forge
   - defaults
+  - pytorch
 dependencies:
   - python=3.9
   - jupyter
@@ -14,5 +15,4 @@ dependencies:
   - pip
   - pip:
       - pycurl
-      - git+https://github.com/ESM-VFC/intake_zenodo_fetcher.git
       - scikit-image

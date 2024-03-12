@@ -6,12 +6,13 @@ channels:
 dependencies:
   - python=3.9
   - jupyter
-  - intake
+  - intake==0.7.*
   - intake-xarray
   - rioxarray
   - pytorch==1.8.0
   - torchvision==0.9.0
   - hvplot
+  - pooch
   - pip
   - pip:
       - pycurl

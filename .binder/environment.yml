@@ -2,17 +2,18 @@ name: b34facfa-cea8-48f5-89f6-f11ce00812a9
 channels:
   - conda-forge
   - defaults
+  - pytorch
 dependencies:
   - python=3.9
   - jupyter
-  - intake
+  - intake==0.7.*
   - intake-xarray
   - rioxarray
   - pytorch==1.8.0
   - torchvision==0.9.0
   - hvplot
+  - pooch
   - pip
   - pip:
       - pycurl
-      - git+https://github.com/ESM-VFC/intake_zenodo_fetcher.git
       - scikit-image

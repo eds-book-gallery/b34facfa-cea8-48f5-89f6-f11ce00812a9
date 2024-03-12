@@ -13,10 +13,10 @@
 version: 1
 metadata:
   content_hash:
-    linux-64: 64d90c57078397e5b43be958d12ca588fc8a79c0fe094c05030b2765e8c68d92
-    osx-arm64: 40d03fdd473c021c967b0408d3a3a8570ca1a4856247cddefe45ad5102cba76a
-    osx-64: b984f14c07d3ea1e343fb55823c9fc0275c06ca027577f908669f7e6fc6e3287
-    win-64: c5336eae56be1f6e3f43e2441f64a76fb61190a0cdeeca13289886c888ae2534
+    linux-64: 2fdd5ab3db1e62dbd603d455c636c6e2121e338945c4b6db76ce38deb206cad0
+    osx-arm64: 7b57f9b721999895f952bfc4a8ed8ffebfb401364ba5f62d346f31ac5bc211f7
+    osx-64: f7a6b1b5903401e63c6db748de7af69507bda8eeb94fad490afcda58a7fbc6c4
+    win-64: cfb48523e8ec20e322f84bdd385dd03663998c86ea62b883bb200e34ad953a20
   channels:
   - url: conda-forge
     used_env_vars: []
@@ -4959,63 +4959,99 @@ package:
   category: main
   optional: false
 - name: intake
-  version: 2.0.3
+  version: 0.7.0
   manager: conda
   platform: linux-64
   dependencies:
     appdirs: ''
-    fsspec: '>=2023.0.0'
-    python: '>=3.8'
+    cloudpickle: '>=0.2.2'
+    dask: '>=1.0'
+    entrypoints: ''
+    fsspec: '>=0.7.4'
+    jinja2: ''
+    msgpack-python: ''
+    numpy: ''
+    partd: '>=0.3.10'
+    python: '>=3.6'
     pyyaml: ''
-  url: https://conda.anaconda.org/conda-forge/noarch/intake-2.0.3-pyhd8ed1ab_0.conda
+    requests: ''
+    toolz: '>=0.8.2'
+  url: https://conda.anaconda.org/conda-forge/noarch/intake-0.7.0-pyhd8ed1ab_0.conda
   hash:
-    md5: d88b72e5f356f21b6c827ffac6e03b89
-    sha256: a084ff1c03ac9d1047b897544cfc482eb1a519e3d5fec3bb9d2f5c5d079803f2
+    md5: 310f0fdaec6eecd9cc7833a788bafb1f
+    sha256: 8dba632e81a11347d959bb11367f6b0184e2dcc9aeab550de156beac5fa6091b
   category: main
   optional: false
 - name: intake
-  version: 2.0.3
+  version: 0.7.0
   manager: conda
   platform: osx-64
   dependencies:
+    numpy: ''
+    requests: ''
     pyyaml: ''
+    jinja2: ''
     appdirs: ''
-    python: '>=3.8'
-    fsspec: '>=2023.0.0'
-  url: https://conda.anaconda.org/conda-forge/noarch/intake-2.0.3-pyhd8ed1ab_0.conda
+    msgpack-python: ''
+    entrypoints: ''
+    python: '>=3.6'
+    toolz: '>=0.8.2'
+    partd: '>=0.3.10'
+    cloudpickle: '>=0.2.2'
+    fsspec: '>=0.7.4'
+    dask: '>=1.0'
+  url: https://conda.anaconda.org/conda-forge/noarch/intake-0.7.0-pyhd8ed1ab_0.conda
   hash:
-    md5: d88b72e5f356f21b6c827ffac6e03b89
-    sha256: a084ff1c03ac9d1047b897544cfc482eb1a519e3d5fec3bb9d2f5c5d079803f2
+    md5: 310f0fdaec6eecd9cc7833a788bafb1f
+    sha256: 8dba632e81a11347d959bb11367f6b0184e2dcc9aeab550de156beac5fa6091b
   category: main
   optional: false
 - name: intake
-  version: 2.0.3
+  version: 0.7.0
   manager: conda
   platform: osx-arm64
   dependencies:
+    numpy: ''
+    requests: ''
     pyyaml: ''
+    jinja2: ''
     appdirs: ''
-    python: '>=3.8'
-    fsspec: '>=2023.0.0'
-  url: https://conda.anaconda.org/conda-forge/noarch/intake-2.0.3-pyhd8ed1ab_0.conda
+    msgpack-python: ''
+    entrypoints: ''
+    python: '>=3.6'
+    toolz: '>=0.8.2'
+    partd: '>=0.3.10'
+    cloudpickle: '>=0.2.2'
+    fsspec: '>=0.7.4'
+    dask: '>=1.0'
+  url: https://conda.anaconda.org/conda-forge/noarch/intake-0.7.0-pyhd8ed1ab_0.conda
   hash:
-    md5: d88b72e5f356f21b6c827ffac6e03b89
-    sha256: a084ff1c03ac9d1047b897544cfc482eb1a519e3d5fec3bb9d2f5c5d079803f2
+    md5: 310f0fdaec6eecd9cc7833a788bafb1f
+    sha256: 8dba632e81a11347d959bb11367f6b0184e2dcc9aeab550de156beac5fa6091b
   category: main
   optional: false
 - name: intake
-  version: 2.0.3
+  version: 0.7.0
   manager: conda
   platform: win-64
   dependencies:
+    numpy: ''
+    requests: ''
     pyyaml: ''
+    jinja2: ''
     appdirs: ''
-    python: '>=3.8'
-    fsspec: '>=2023.0.0'
-  url: https://conda.anaconda.org/conda-forge/noarch/intake-2.0.3-pyhd8ed1ab_0.conda
+    msgpack-python: ''
+    entrypoints: ''
+    python: '>=3.6'
+    toolz: '>=0.8.2'
+    partd: '>=0.3.10'
+    cloudpickle: '>=0.2.2'
+    fsspec: '>=0.7.4'
+    dask: '>=1.0'
+  url: https://conda.anaconda.org/conda-forge/noarch/intake-0.7.0-pyhd8ed1ab_0.conda
   hash:
-    md5: d88b72e5f356f21b6c827ffac6e03b89
-    sha256: a084ff1c03ac9d1047b897544cfc482eb1a519e3d5fec3bb9d2f5c5d079803f2
+    md5: 310f0fdaec6eecd9cc7833a788bafb1f
+    sha256: 8dba632e81a11347d959bb11367f6b0184e2dcc9aeab550de156beac5fa6091b
   category: main
   optional: false
 - name: intake-xarray
@@ -7137,7 +7173,7 @@ package:
   category: main
   optional: false
 - name: libarrow
-  version: 15.0.0
+  version: 15.0.1
   manager: conda
   platform: win-64
   dependencies:
@@ -7163,86 +7199,86 @@ package:
     vc: '>=14.2,<15'
     vc14_runtime: '>=14.29.30139'
     zstd: '>=1.5.5,<1.6.0a0'
-  url: https://conda.anaconda.org/conda-forge/win-64/libarrow-15.0.0-h09d6311_8_cpu.conda
+  url: https://conda.anaconda.org/conda-forge/win-64/libarrow-15.0.1-h09d6311_0_cpu.conda
   hash:
-    md5: 879898a46d567febe1dd1abedb13cb7b
-    sha256: 17a682a30899911b44b4069088f9d45c22ae7fae2b0f100f2a6bf212501f3f4b
+    md5: 9f9c83925e5be884ceb6d42e69aacb88
+    sha256: a9586426a180f555a8c03bac71bbaecf16867b918d667553abc2be242cf9282c
   category: main
   optional: false
 - name: libarrow-acero
-  version: 15.0.0
+  version: 15.0.1
   manager: conda
   platform: win-64
   dependencies:
-    libarrow: 15.0.0
+    libarrow: 15.0.1
     ucrt: '>=10.0.20348.0'
     vc: '>=14.2,<15'
     vc14_runtime: '>=14.29.30139'
-  url: https://conda.anaconda.org/conda-forge/win-64/libarrow-acero-15.0.0-h63175ca_8_cpu.conda
+  url: https://conda.anaconda.org/conda-forge/win-64/libarrow-acero-15.0.1-h63175ca_0_cpu.conda
   hash:
-    md5: cf621bcaead28cc0efc7e0cfcaf746b5
-    sha256: 7bbe7b01b5433fc567653517dfaebf2b0900353b16db033d5b3989f5fc8ddcd7
+    md5: 80fcd431b4ea84d85829a9f890161cf0
+    sha256: d23ab9c2b612e8966c61e46c526d1a39832ae41903c6781821a51b6028cfb07e
   category: main
   optional: false
 - name: libarrow-dataset
-  version: 15.0.0
+  version: 15.0.1
   manager: conda
   platform: win-64
   dependencies:
-    libarrow: 15.0.0
-    libarrow-acero: 15.0.0
-    libparquet: 15.0.0
+    libarrow: 15.0.1
+    libarrow-acero: 15.0.1
+    libparquet: 15.0.1
     ucrt: '>=10.0.20348.0'
     vc: '>=14.2,<15'
     vc14_runtime: '>=14.29.30139'
-  url: https://conda.anaconda.org/conda-forge/win-64/libarrow-dataset-15.0.0-h63175ca_8_cpu.conda
+  url: https://conda.anaconda.org/conda-forge/win-64/libarrow-dataset-15.0.1-h63175ca_0_cpu.conda
   hash:
-    md5: 102cb6a3df9a3802ad38cc509641e696
-    sha256: 5cbabd4879c575985582b0ddb63250b494f9a0b02aeb9cff78e741fe436f4be9
+    md5: 300171f02d3bf2bf9afcf57797b67988
+    sha256: d23c0bbb20607b2bb6ede1c8ba7cc5c0ad783656451c18de527e7cd4399b4d8e
   category: main
   optional: false
 - name: libarrow-flight
-  version: 15.0.0
+  version: 15.0.1
   manager: conda
   platform: win-64
   dependencies:
     libabseil: '>=20240116.1,<20240117.0a0'
-    libarrow: 15.0.0
+    libarrow: 15.0.1
     libgrpc: '>=1.62.1,<1.63.0a0'
     libprotobuf: '>=4.25.3,<4.25.4.0a0'
     ucrt: '>=10.0.20348.0'
     vc: '>=14.2,<15'
     vc14_runtime: '>=14.29.30139'
-  url: https://conda.anaconda.org/conda-forge/win-64/libarrow-flight-15.0.0-h02312f3_8_cpu.conda
+  url: https://conda.anaconda.org/conda-forge/win-64/libarrow-flight-15.0.1-h02312f3_0_cpu.conda
   hash:
-    md5: 7d30cf61b8e388f46bb0628217c8043f
-    sha256: 807ee8f9e1e813cedac9d371e89c30b63bbba0b4be7836f1b59e048e9c952b3f
+    md5: 14241d6919e29f4a3ed9a9777d737aa5
+    sha256: 880677dfb4288d4738d0574387d2b6a5dd14cb04aff15d6c41fbb4583e121d64
   category: main
   optional: false
 - name: libarrow-flight-sql
-  version: 15.0.0
+  version: 15.0.1
   manager: conda
   platform: win-64
   dependencies:
-    libarrow: 15.0.0
-    libarrow-flight: 15.0.0
+    libarrow: 15.0.1
+    libarrow-flight: 15.0.1
     libprotobuf: '>=4.25.3,<4.25.4.0a0'
     ucrt: '>=10.0.20348.0'
     vc: '>=14.2,<15'
     vc14_runtime: '>=14.29.30139'
-  url: https://conda.anaconda.org/conda-forge/win-64/libarrow-flight-sql-15.0.0-h55b4db4_8_cpu.conda
+  url: https://conda.anaconda.org/conda-forge/win-64/libarrow-flight-sql-15.0.1-h55b4db4_0_cpu.conda
   hash:
-    md5: 351ba2f01fd802eabe823b5deca5883d
-    sha256: 296ca0a68416fe7064706af79795781cc0e973fe22aa6553ce42d655c9f093d6
+    md5: da8456ffc964d6b3e95022381ad9f780
+    sha256: 80b504c76616d63b2793b167eb81f7758f708c4b9a8b84f93bafb90ead1834da
   category: main
   optional: false
 - name: libarrow-gandiva
-  version: 15.0.0
+  version: 15.0.1
   manager: conda
   platform: win-64
   dependencies:
     libabseil: '>=20240116.1,<20240117.0a0'
-    libarrow: 15.0.0
+    libarrow: 15.0.1
     libre2-11: '>=2023.9.1,<2024.0a0'
     libutf8proc: '>=2.8.0,<3.0a0'
     libzlib: '>=1.2.13,<1.3.0a0'
@@ -7252,29 +7288,29 @@ package:
     vc: '>=14.2,<15'
     vc14_runtime: '>=14.29.30139'
     zstd: '>=1.5.5,<1.6.0a0'
-  url: https://conda.anaconda.org/conda-forge/win-64/libarrow-gandiva-15.0.0-h3f2ff47_8_cpu.conda
+  url: https://conda.anaconda.org/conda-forge/win-64/libarrow-gandiva-15.0.1-h3f2ff47_0_cpu.conda
   hash:
-    md5: 4724f17293942c629343ee9ee7408df8
-    sha256: 6e86e5e10fb5dd5c4827afec88e5b68a96ae6684fab50fd2f5e3c1cc4130cad1
+    md5: 0d1d733c389a48b4bb55548730aedd27
+    sha256: b5f307e1bc9bfc58e5ab57b5994da01395fe91145fe48f3bf2e32b881b9f22a9
   category: main
   optional: false
 - name: libarrow-substrait
-  version: 15.0.0
+  version: 15.0.1
   manager: conda
   platform: win-64
   dependencies:
     libabseil: '>=20240116.1,<20240117.0a0'
-    libarrow: 15.0.0
-    libarrow-acero: 15.0.0
-    libarrow-dataset: 15.0.0
+    libarrow: 15.0.1
+    libarrow-acero: 15.0.1
+    libarrow-dataset: 15.0.1
     libprotobuf: '>=4.25.3,<4.25.4.0a0'
     ucrt: '>=10.0.20348.0'
     vc: '>=14.2,<15'
     vc14_runtime: '>=14.29.30139'
-  url: https://conda.anaconda.org/conda-forge/win-64/libarrow-substrait-15.0.0-h89268de_8_cpu.conda
+  url: https://conda.anaconda.org/conda-forge/win-64/libarrow-substrait-15.0.1-h89268de_0_cpu.conda
   hash:
-    md5: 20ed236f30520b3457053cea598f7f54
-    sha256: 0f10dd68152283694bd9a5716ddfcf1df31277a010130f1e5a4dea4030abe134
+    md5: d1c263f03e2820ac55b867e18691e546
+    sha256: 85045a911e5cdfc2a19d0dbbde377da2aaa9703c79b16a7f63509d5a21588854
   category: main
   optional: false
 - name: libblas
@@ -8572,20 +8608,20 @@ package:
   category: main
   optional: false
 - name: libparquet
-  version: 15.0.0
+  version: 15.0.1
   manager: conda
   platform: win-64
   dependencies:
-    libarrow: 15.0.0
+    libarrow: 15.0.1
     libthrift: '>=0.19.0,<0.19.1.0a0'
     openssl: '>=3.2.1,<4.0a0'
     ucrt: '>=10.0.20348.0'
     vc: '>=14.2,<15'
     vc14_runtime: '>=14.29.30139'
-  url: https://conda.anaconda.org/conda-forge/win-64/libparquet-15.0.0-h7ec3a38_8_cpu.conda
+  url: https://conda.anaconda.org/conda-forge/win-64/libparquet-15.0.1-h7ec3a38_0_cpu.conda
   hash:
-    md5: d41691a0ae107a39dc6e58ec88b2b68f
-    sha256: 07e2abcc0e6f286dd9a65af865677909a3d6569901eaad2ab97bd8ec6bf82411
+    md5: 248d3f9b614f66f57aba42343e728ced
+    sha256: 1d14d1b4847b26f44b74d8c8fd82fb0eb09835fdcb0759e60119fc95d95e1541
   category: main
   optional: false
 - name: libpng
@@ -12261,6 +12297,66 @@ package:
     sha256: 2ebfb971236ab825dd79dd6086ea742a9901008ffb9c6222c1f2b5172a8039d3
   category: main
   optional: false
+- name: pooch
+  version: 1.8.1
+  manager: conda
+  platform: linux-64
+  dependencies:
+    packaging: '>=20.0'
+    platformdirs: '>=2.5.0'
+    python: '>=3.7'
+    requests: '>=2.19.0'
+  url: https://conda.anaconda.org/conda-forge/noarch/pooch-1.8.1-pyhd8ed1ab_0.conda
+  hash:
+    md5: d15917f33140f8d2ac9ca44db7ec8a25
+    sha256: 63f95e626754f5e05e74f39c0f4866aa8bd40b933eef336077978d365d66ca7b
+  category: main
+  optional: false
+- name: pooch
+  version: 1.8.1
+  manager: conda
+  platform: osx-64
+  dependencies:
+    python: '>=3.7'
+    packaging: '>=20.0'
+    requests: '>=2.19.0'
+    platformdirs: '>=2.5.0'
+  url: https://conda.anaconda.org/conda-forge/noarch/pooch-1.8.1-pyhd8ed1ab_0.conda
+  hash:
+    md5: d15917f33140f8d2ac9ca44db7ec8a25
+    sha256: 63f95e626754f5e05e74f39c0f4866aa8bd40b933eef336077978d365d66ca7b
+  category: main
+  optional: false
+- name: pooch
+  version: 1.8.1
+  manager: conda
+  platform: osx-arm64
+  dependencies:
+    python: '>=3.7'
+    packaging: '>=20.0'
+    requests: '>=2.19.0'
+    platformdirs: '>=2.5.0'
+  url: https://conda.anaconda.org/conda-forge/noarch/pooch-1.8.1-pyhd8ed1ab_0.conda
+  hash:
+    md5: d15917f33140f8d2ac9ca44db7ec8a25
+    sha256: 63f95e626754f5e05e74f39c0f4866aa8bd40b933eef336077978d365d66ca7b
+  category: main
+  optional: false
+- name: pooch
+  version: 1.8.1
+  manager: conda
+  platform: win-64
+  dependencies:
+    python: '>=3.7'
+    packaging: '>=20.0'
+    requests: '>=2.19.0'
+    platformdirs: '>=2.5.0'
+  url: https://conda.anaconda.org/conda-forge/noarch/pooch-1.8.1-pyhd8ed1ab_0.conda
+  hash:
+    md5: d15917f33140f8d2ac9ca44db7ec8a25
+    sha256: 63f95e626754f5e05e74f39c0f4866aa8bd40b933eef336077978d365d66ca7b
+  category: main
+  optional: false
 - name: poppler
   version: 23.03.0
   manager: conda
@@ -12857,28 +12953,28 @@ package:
   category: main
   optional: false
 - name: pyarrow
-  version: 15.0.0
+  version: 15.0.1
   manager: conda
   platform: win-64
   dependencies:
-    libarrow: 15.0.0
-    libarrow-acero: 15.0.0
-    libarrow-dataset: 15.0.0
-    libarrow-flight: 15.0.0
-    libarrow-flight-sql: 15.0.0
-    libarrow-gandiva: 15.0.0
-    libarrow-substrait: 15.0.0
-    libparquet: 15.0.0
+    libarrow: 15.0.1
+    libarrow-acero: 15.0.1
+    libarrow-dataset: 15.0.1
+    libarrow-flight: 15.0.1
+    libarrow-flight-sql: 15.0.1
+    libarrow-gandiva: 15.0.1
+    libarrow-substrait: 15.0.1
+    libparquet: 15.0.1
     numpy: '>=1.22.4,<2.0a0'
     python: '>=3.9,<3.10.0a0'
     python_abi: 3.9.*
     ucrt: '>=10.0.20348.0'
     vc: '>=14.2,<15'
     vc14_runtime: '>=14.29.30139'
-  url: https://conda.anaconda.org/conda-forge/win-64/pyarrow-15.0.0-py39h0a09291_8_cpu.conda
+  url: https://conda.anaconda.org/conda-forge/win-64/pyarrow-15.0.1-py39h0a09291_0_cpu.conda
   hash:
-    md5: 6b088cebfdd3f3422ca236e27c9ebe39
-    sha256: 83de1d201218b1a34250cf5f16fb5a6e9917d1b6349c18118ac71cbd533f82d4
+    md5: 1546f1671f9ef55a96a22fdac49cbaae
+    sha256: dfbc3ebcdfa247a29737985b93b0f6de482244b8d46f7b740d3645b7052c9ae6
   category: main
   optional: false
 - name: pyarrow-hotfix

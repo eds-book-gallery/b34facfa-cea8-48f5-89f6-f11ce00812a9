@@ -5,7 +5,7 @@ extends:
 project:
   id: b34facfa-cea8-48f5-89f6-f11ce00812a9
   title: "Detecting floating objects using deep learning and Sentinel-2 imagery (Jupyter Notebook) published in the Environmental Data Science book"
-  short_title: Detecting floating objects (ESA Phi-Lab)
+  short_title: "Detecting floating objects (ESA Phi-Lab)"
   abstract: "Notebook developed to demonstrate the use of deep neural networks for the detection of floating objects on Sentinel-2 data."
   authors:
     - id: jmifdal

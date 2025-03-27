@@ -30,12 +30,12 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.8308843
 keywords:
-  - environmental data science
-  - oceanography
-  - modelling
-  - deep learning
+  - Ocean
+  - Modelling
+  - Standard
+  - Python
 license: MIT
 license-url: https://opensource.org/license/MIT
-repository: https://github.com/eds-book/435f534c-e49b-43c3-9bd6-3393100bef3f
+repository: https://github.com/eds-book/b34facfa-cea8-48f5-89f6-f11ce00812a9
 type: software
 version: v2.0.0

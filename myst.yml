@@ -50,10 +50,10 @@ project:
   funding: The modelling framework showcase in the notebook was supported by Φ-lab, European Space Agency.
   subject: Ocean
   keywords:
-    - environmental data science
-    - oceanography
-    - modelling
-    - deep learning
+    - Ocean
+    - Modelling
+    - Standard
+    - Python
   venue:
     title: Environmental Data Science Book
     short_title: EDS Book

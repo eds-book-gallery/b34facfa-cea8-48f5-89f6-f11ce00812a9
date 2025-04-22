@@ -16,5 +16,6 @@ dependencies:
   - pooch
   - pip
   - pip:
+      - gdown
       - pycurl
       - scikit-image

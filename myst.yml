@@ -76,6 +76,8 @@ project:
   date: 2023-09-01
   toc:
     - file: notebook.ipynb
+  references:
+    notebook_review: https://github.com/alan-turing-institute/environmental-ds-book/pull/22
   exports:
     - format: pdf
       template: curvenote

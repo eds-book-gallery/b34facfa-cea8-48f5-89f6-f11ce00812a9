@@ -78,6 +78,7 @@ project:
     - file: notebook.ipynb
   references:
     notebook_review: https://github.com/alan-turing-institute/environmental-ds-book/pull/22
+    rohub: https://w3id.org/ro-id/b34facfa-cea8-48f5-89f6-f11ce00812a9
   exports:
     - format: pdf
       template: curvenote

@@ -27,8 +27,12 @@ contact:
     email: raquelarscarmo@gmail.com
     website: https://github.com/raquelcarmo
 identifiers:
-  - type: doi
-    value: 10.5281/zenodo.8308843
+  - description: Notebook Review
+    type: url
+    value: https://github.com/alan-turing-institute/environmental-ds-book/pull/22
+  - description: RoHub identifier
+    type: url
+    value: https://w3id.org/ro-id/b34facfa-cea8-48f5-89f6-f11ce00812a9
 keywords:
   - Oceans
   - Modelling

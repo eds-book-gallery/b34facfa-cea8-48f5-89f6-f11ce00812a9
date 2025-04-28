@@ -27,10 +27,10 @@ contact:
     email: raquelarscarmo@gmail.com
     website: https://github.com/raquelcarmo
 identifiers:
-  - description: Notebook Review
+  - description: Open review report for this notebook
     type: url
     value: https://github.com/alan-turing-institute/environmental-ds-book/pull/22
-  - description: RoHub identifier
+  - description: The RoHub identifier for this notebook
     type: url
     value: https://w3id.org/ro-id/b34facfa-cea8-48f5-89f6-f11ce00812a9
 keywords:

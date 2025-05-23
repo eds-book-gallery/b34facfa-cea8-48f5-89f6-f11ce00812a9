@@ -11,7 +11,7 @@ project:
     - id: jmifdal
       name: Jamila Mifdal
       orcid: 0000-0002-9480-7387
-      url: https://github.com/raquelcarmo
+      github: jmifdal
       roles:
         - Investigation
         - Software
@@ -23,7 +23,7 @@ project:
       orcid: 0000-0002-9480-7387
       corresponding: true
       email: raquelarscarmo@gmail.com
-      url: https://github.com/raquelcarmo
+      github: raquelcarmo
       roles:
         - Investigation
         - Software
@@ -34,7 +34,7 @@ project:
     - id: acoca
       name: Alejandro Coca-Castro
       orcid: 0000-0002-9264-1539
-      url: https://github.com/acocac
+      github: acocac
       roles:
         - Writing – review & editing
       affiliations:
@@ -90,9 +90,6 @@ project:
         - description: "Open review report for this notebook"
           type: url
           value: "https://github.com/alan-turing-institute/environmental-ds-book/pull/22"
-        - description: "The RoHub identifier for this notebook"
-          type: url
-          value: "https://w3id.org/ro-id/b34facfa-cea8-48f5-89f6-f11ce00812a9"
   bibliography:
     - references.bib
 

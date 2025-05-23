@@ -83,7 +83,7 @@ project:
       output: exports/notebook.pdf
     - format: cff
       type: software
-      version: 2025.04.0
+      version: v2025.05.0
       license: MIT
       license-url: https://opensource.org/license/MIT
       identifiers:

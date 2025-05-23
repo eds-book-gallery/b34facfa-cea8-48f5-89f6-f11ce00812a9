@@ -11,13 +11,11 @@ authors:
     given-names: Jamila
     affiliation: ESA Phi-Lab
     orcid: 0000-0002-9480-7387
-    website: https://github.com/raquelcarmo
   - family-names: Carmo
     given-names: Raquel
     affiliation: ESA Phi-Lab
     orcid: 0000-0002-9480-7387
     email: raquelarscarmo@gmail.com
-    website: https://github.com/raquelcarmo
 date-released: '2023-09-01'
 contact:
   - family-names: Carmo
@@ -25,14 +23,10 @@ contact:
     affiliation: ESA Phi-Lab
     orcid: 0000-0002-9480-7387
     email: raquelarscarmo@gmail.com
-    website: https://github.com/raquelcarmo
 identifiers:
   - description: Open review report for this notebook
     type: url
     value: https://github.com/alan-turing-institute/environmental-ds-book/pull/22
-  - description: The RoHub identifier for this notebook
-    type: url
-    value: https://w3id.org/ro-id/b34facfa-cea8-48f5-89f6-f11ce00812a9
 keywords:
   - Oceans
   - Modelling
@@ -42,4 +36,4 @@ license: MIT
 license-url: https://opensource.org/license/MIT
 repository: https://github.com/eds-book/b34facfa-cea8-48f5-89f6-f11ce00812a9
 type: software
-version: 2025.04.0
+version: v2025.05.0

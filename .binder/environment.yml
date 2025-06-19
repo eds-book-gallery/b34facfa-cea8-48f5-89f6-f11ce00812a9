@@ -7,10 +7,11 @@ dependencies:
   - python=3.9
   - jupyter
   - intake==0.7.*
-  - intake-xarray
-  - rioxarray
+  - intake-xarray==0.7.*
+  - rioxarray==0.15.0
   - pytorch==1.8.0
   - torchvision==0.9.0
+  - dask==2023.3.0
   - hvplot
   - pooch
   - pip

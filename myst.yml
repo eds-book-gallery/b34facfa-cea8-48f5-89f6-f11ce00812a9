@@ -1,0 +1,98 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+extends:
+  - https://raw.githubusercontent.com/eds-book/edsbook-config/main/edsbook.yml
+project:
+  id: b34facfa-cea8-48f5-89f6-f11ce00812a9
+  title: Detecting floating objects using deep learning and Sentinel-2 imagery (Jupyter Notebook) published in the Environmental Data Science book
+  short_title: Detecting floating objects (ESA Phi-Lab)
+  abstract: Notebook developed to demonstrate the use of deep neural networks for the detection of floating objects on Sentinel-2 data.
+  authors:
+    - id: jmifdal
+      name: Jamila Mifdal
+      orcid: 0000-0002-9480-7387
+      github: jmifdal
+      roles:
+        - Investigation
+        - Software
+        - Visualization
+      affiliations:
+        - esa
+    - id: rcarmo
+      name: Raquel Carmo
+      orcid: 0000-0002-9480-7387
+      corresponding: true
+      email: raquelarscarmo@gmail.com
+      github: raquelcarmo
+      roles:
+        - Investigation
+        - Software
+        - Visualization
+      affiliations:
+        - esa
+  reviewers:
+    - id: acoca
+      name: Alejandro Coca-Castro
+      orcid: 0000-0002-9264-1539
+      github: acocac
+      roles:
+        - Writing – review & editing
+      affiliations:
+        - turing
+  editors:
+    - acoca
+  affiliations:
+    - id: esa
+      name: ESA Phi-Lab
+    - id: turing
+      name: The Alan Turing Institute
+      department: Environment & Sustainability
+  funding: The modelling framework showcase in the notebook was supported by Φ-lab, European Space Agency.
+  subject: Oceans
+  keywords:
+    - Oceans
+    - Modelling
+    - Standard
+    - Python
+  venue:
+    title: Environmental Data Science Book
+    short_title: EDS Book
+    url: https://www.edsbook.org
+  issue:
+    name: Standard
+  thumbnail: images/thumbnail.png
+  requirements:
+    - environment.yml
+  doi: 10.5281/zenodo.8308843
+  github: https://github.com/eds-book/b34facfa-cea8-48f5-89f6-f11ce00812a9
+  jupyter:
+    binder:
+      repo: eds-book/b34facfa-cea8-48f5-89f6-f11ce00812a9
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  open_access: true
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  date: 2023-09-01
+  toc:
+    - file: README.md
+    - file: notebook.ipynb
+  exports:
+    - format: pdf
+      template: curvenote
+      article: notebook.ipynb
+      output: exports/notebook.pdf
+    - format: cff
+      type: software
+      version: v2025.05.0
+      license: MIT
+      license-url: https://opensource.org/license/MIT
+      identifiers:
+        - description: "Open review report for this notebook"
+          type: url
+          value: "https://github.com/alan-turing-institute/environmental-ds-book/pull/22"
+  bibliography:
+    - references.bib
+
+site:
+  template: book-theme
